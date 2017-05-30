@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<kendo-chart>
+  <kendo-chart-series>
+    <kendo-chart-series-item type="area" [stack]="true" [data]="[1, 1, 1]" color="red" opacity="0.5">
+    </kendo-chart-series-item>
+    <kendo-chart-series-item type="area" [data]="[1, 1, 1]" color="green" opacity="0.5">
+    </kendo-chart-series-item>
+    <kendo-chart-series-item type="area" [data]="[1, 0, -1]" color="blue" opacity="0.5">
+    </kendo-chart-series-item>
+  </kendo-chart-series>
+</kendo-chart>
